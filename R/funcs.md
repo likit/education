@@ -2,6 +2,8 @@ Basic R function
 ========================================================
 ## Why function?
 
+Copying and pasting the same code over and over is not effective code reuse.
+It could make code error-prone and difficult to maintain.
 
 ```r
 temp <- 45  # Fahrenheit
@@ -43,18 +45,17 @@ cat("Temperature in Kelvin is", kelvin)
 ## Temperature in Kelvin is 274.8
 ```
 
-....
 
-Basic syntax
+## Basic syntax
 
 function(argument,...) {
   # function body
 }
 
 
-Examples
+## Examples
 
-A very simple function
+#### A very simple function
 
 ```r
 say.hi <- function() {
@@ -69,7 +70,7 @@ say.hi()
 ```
 
 
-A function can take aguments
+#### A function can take aguments.
 
 
 ```r
